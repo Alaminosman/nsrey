@@ -23,9 +23,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = "django-insecure-i*x$r2_%vi)16xg2+u*x*ls0=*ivxa-8r9)yo%5f5!k+g&rs4k"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['Alaminosman.pythonanywhere.com']
+
+STATIC_ROOT = '/home/Alaminosman/nsrey/static'
 
 
 # Application definition
@@ -37,6 +39,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    'core', # Add this line
 ]
 
 MIDDLEWARE = [
