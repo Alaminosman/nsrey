@@ -1,0 +1,12 @@
+# Django-specific files to ignore
+*.pyc
+__pycache__/
+
+# Virtual environment
+venv/
+
+# Database file
+db.sqlite3
+
+# Static files collected by Django
+static/
